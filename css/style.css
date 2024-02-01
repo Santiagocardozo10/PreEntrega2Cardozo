@@ -14,9 +14,10 @@
 
 h1{
     text-align: center;  /*alineacion texto  */
-    font-size: 70px;    /* tamaño texto */
+    font-size: 50px;    /* tamaño texto */
     color: black;   /* color del texto */
     text-transform: uppercase; /* texto en mayuscula */
+    padding-top: 15px;
 }
     /* PARRAFOS */
 p{
@@ -26,105 +27,243 @@ p{
     font-family:'Roboto', sans-serif;  /* familia tipografica*/
 }
 
+    /*Vinculos de la nav*/
  ul{
     /* border: 1px solid #e7e7e7; */
-    background-color: #f3f3f3;
- }
+    display: flex;
+    background-color:  #4576BA;
+    align-items: flex-end;
+   
+    
+    }
 
+    
 
 /* selectores descendentes*/
     
     /* MENÚ */
 .menu{
-    background-color: rgb(90, 112, 136);
+    background-color: #4576BA;
     padding: 8px 20px;
-     
-    }
-    /* img de index main */
-    .logoMain{
-        display: flex;
-        flex-direction:row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        padding-top: 30px;
-        padding-bottom: 10px;
-        
-        
-      
-     }
-
-    /* estilo de la nav */
-    .menu ul li a{
-        text-decoration: none;
-        color: rgb(1, 1, 1);
-        font-size:35px;
-      
-        }
-       
-       .menu ul li{
-        display:inline;
-        padding: 8px;
-       }
-       
-       /* imagen de los headers */
-       header img{
-        padding-top: 10px;
-        width: 100%;
-        height: 30%;         
-       }
-      
-      
-      
-       
-     
-      
-       
-      
-
-/*selectores de clase*/
-
-.textBold{
-    font-weight: bold;    
-}
-.textBlack{
-    color: rgb(13, 13, 12);
-}
-.textItalic{
-    font-style: italic;
-}
-/* cierra selectores de clase */
-    
-
-
-/* estilo pant. de servicios */
-.section img {
-    width: 100%;
-    max-height: auto;
     display: flex;
-    flex-wrap: now
-}
-
-    
-
-
-
-
-
-/* box model width - height - margin - padding - border */
-.container{
-    background-color: rgb(231, 223, 225);
-    width: 50%;
-    height: auto;
-    margin: 20px 25%;
-    padding:10px;
-}   
-
-/* star footer */
-footer img{
-    padding: 10px;
-    width: 200px;
-    margin-top: 10px;
-
+    flex-direction:row;
+    justify-content: space-between;
     
 }
+    .menu img{
+        width: 100%;
+        height: auto;
+        
 
+}    
+
+/* texto main */
+        .textBold{
+            font-size: 25px;
+            text-align: center;
+            padding-top: 5%;
+       
+        }
+
+
+        
+   
+
+/* img de index main */
+.logoMain{
+   display:flex;
+   justify-content: space-around;
+   flex-direction: row;
+   padding-top: 50px;
+   
+}
+   
+  
+.logoMain p{
+
+   font-size: 10px;
+   text-align: center;
+   color:rgb(12, 11, 11);
+}
+
+
+.logoMain figure{
+
+   text-align:center;
+   align-items: center;
+   line-height: 1.4em;
+   background-color:#4576BA;
+
+   
+}
+.logoMain figcaption{
+   color:rgb(12, 11, 11);
+    line-height: 20px;
+   
+   }
+
+   .logoMain img{
+       height: 40%;
+   }
+  
+
+   /* End img de index */
+  
+   
+ 
+
+
+
+
+
+
+/* estilo de la nav */
+.menu ul li a{
+  text-decoration: none;
+  color: rgb(1, 1, 1);
+  font-size:20px;
+ 
+
+   
+
+  }
+ 
+ .menu ul li{
+  display:inline;
+  padding: 12px;
+   
+}
+ /* imagen de los headers */
+ header img{
+     padding-top: 10px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    
+  
+    
+ }
+
+ 
+ /*selectores de clase*/
+ 
+ .textBold{
+     font-weight: bold;    
+ }
+ .textBlack{
+     color: rgb(13, 13, 12);
+ }
+ .textItalic{
+     font-style: italic;
+ }
+ /* cierra selectores de clase */
+     
+ 
+ 
+ /* estilo pant. de servicios */
+    .section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;  
+      
+    } 
+
+       .section img{
+        height: 500px;
+        padding-left: 25%;
+
+       }
+    
+        
+
+       
+        
+    .section h3{
+        text-align: center;
+        font-size: 30px;
+        
+    }
+    
+    .section p{
+        background-color: aqua;
+        font-size: 18px;
+        text-align: center;
+    }
+        
+       
+        
+ 
+    
+    
+
+  
+    
+    
+     
+   
+
+   /* box model width - height - margin - padding - border(recordatorio) */ 
+
+   /* estilo menu */
+   .container{
+       display: flex;
+       background-color: rgb(231, 223, 225);
+       width: 90%;
+       height: auto;
+       justify-content:space-around;
+       margin: auto;
+       
+   }   
+   
+   /* star footer */
+
+  
+   .piePagina div  {
+        display: flex;    
+       flex-direction: row;
+       justify-content: space-around;
+       
+        
+
+    }
+    .piePagina img{
+        height: 50%;
+        padding-top: 50%;
+            
+    }
+
+    .piePagina p{
+        background-color:#4576BA;
+        font-size: 18px;
+        text-align-last: center;
+        font-weight: bold;    
+    }
+    
+
+    
+  
+       
+      
+  
+      
+   
+      
+    
+    
+       
+       
+     
+      
+    
+     
+      
+     
+
+
+
+
+   
+
+
+    
+   
